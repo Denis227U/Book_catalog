@@ -1,0 +1,44 @@
+.header {
+    border: 2px solid rgb(155, 91, 31);
+    height: 104px;
+    display: flex;
+    align-items: center;
+
+    .nav {
+        height: 100%;
+        align-items: center;
+    }
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 231px;
+    height: 50px;
+
+    .logo-svg {
+        width: 231px;
+        height: 50px;
+        max-width: 100%;
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0;
+    list-style-type: none;
+
+
+
+    &__link {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}

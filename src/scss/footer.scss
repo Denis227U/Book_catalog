@@ -1,0 +1,38 @@
+.footer {
+    background-color: #2b2b2b;
+    padding: 47px 0;
+
+    .footer__logo {
+        margin: 0 auto;
+    }
+
+    // @include respond-to('xl') {
+    //     background-color: yellowgreen;
+    // }
+    // @include respond-to('lg') {
+    //     background-color: rebeccapurple;
+    // }
+    // @include respond-to('md') {
+    //     background-color: salmon;
+    // }
+
+    // @include respond-to('sm') {
+    //     background-color: green;
+    // }
+    // @include respond-to('xs') {
+    //     background-color: blue;
+    // }
+
+}
+
+.logo-svg_white {
+    .st0 {
+        fill: none;
+        stroke: #ffffff;
+    }
+
+    .st1 {
+        fill: none;
+        stroke: #ffffff;
+    }
+}

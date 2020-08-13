@@ -1,0 +1,29 @@
+// -----===== Imports, Mixins and Variables =====-----
+@import "base/vars.scss";
+@import "base/mixins.scss";
+@import "base/bootstrap.scss";
+
+// -----===== Import Fonts =====-----
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap&subset=cyrillic');
+
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+}
+
+// -----===== Import Base styles =====-----
+@import "base/base.scss";
+
+
+
+// -----===== new test header=====-----
+@import "header.scss";
+
+
+// -----===== Main Page =====-----
+@import "pages/main.scss";
+
+
+// -----===== Footer =====-----
+@import "footer.scss";
