@@ -1,8 +1,11 @@
 .header {
-    border: 2px solid rgb(155, 91, 31);
     height: 104px;
     display: flex;
     align-items: center;
+
+    @include respond-to('xs') {
+        height: auto;
+    }
 
     .nav {
         height: 100%;
@@ -33,6 +36,11 @@
     padding: 0 10px;
     margin: 0;
     list-style-type: none;
+
+    @include respond-to('xs') {
+        flex-direction: column;
+        align-items: center;
+    }
 
 
 
