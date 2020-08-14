@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+    <defs>
+        <filter id="wj9xs5b9pa" width="310%" height="310%" x="-105%" y="-98.3%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius="1.5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="9"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.633633379 0 0 0 0 0.633633379 0 0 0 0 0.633633379 0 0 0 0.256993007 0"/>
+        </filter>
+        <path id="0c2my0kvjb" d="M0 15C0 6.716 6.716 0 15 0c8.284 0 15 6.716 15 15 0 8.284-6.716 15-15 15-8.284 0-15-6.716-15-15z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(20 18)">
+        <use fill="#000" filter="url(#wj9xs5b9pa)" xlink:href="#0c2my0kvjb"/>
+        <use fill="#FFF" stroke="#000" xlink:href="#0c2my0kvjb"/>
+        <path fill="#000" fill-rule="nonzero" d="M15.172 19.963s.293-.03.443-.183c.138-.14.133-.402.133-.402s-.018-1.23.587-1.411c.596-.179 1.361 1.189 2.173 1.714.614.398 1.08.31 1.08.31l2.17-.028s1.135-.066.597-.908c-.044-.069-.314-.623-1.613-1.762-1.362-1.192-1.179-1 .46-3.062.998-1.255 1.397-2.022 1.272-2.35-.118-.313-.852-.23-.852-.23l-2.444.014s-.18-.023-.315.053c-.131.074-.216.247-.216.247s-.387.972-.902 1.798c-1.088 1.744-1.523 1.836-1.701 1.728-.414-.253-.311-1.014-.311-1.555 0-1.69.272-2.395-.528-2.577-.266-.06-.461-.1-1.141-.107-.872-.008-1.61.003-2.028.196-.278.128-.492.415-.361.431.161.02.527.093.72.342.251.322.242 1.044.242 1.044s.144 1.989-.336 2.236c-.329.17-.78-.177-1.75-1.759-.498-.81-.873-1.705-.873-1.705s-.072-.168-.202-.258c-.156-.109-.375-.142-.375-.142l-2.321.014s-.35.009-.477.152c-.114.127-.009.39-.009.39s1.818 4.014 3.876 6.038c1.888 1.854 4.03 1.732 4.03 1.732h.972z"/>
+    </g>
+</svg>

@@ -1,0 +1,176 @@
+<% var data = {
+    title: "BookCatalog",
+    author: "Denis&Danil"
+}; %>
+
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <%= _.template(require('html-loader!./../includes/head.html'))(data) %>
+</head>
+
+<body>
+
+    <%= _.template(require('html-loader!./../includes/header.html'))(data) %>
+
+    <main>
+        <nav class="breadcrumbs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <a href="#" class="breadcrumbs__prev">
+                            <div class="breadcrumbs__arrow-prev">
+                                <img class="breadcrumbs__img-prev" src="img/icons/arrow-prev.svg" alt="prev">
+                            </div>
+                            <span class="breadcrumbs__prev-text">назад</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="verse-card">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="title verse-card__title">На коврике уснул олень</h1>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="verse-card__inner">
+                            <div class="verse-card__img-wrp">
+                                <img src="img/pictures/verse_img.jpg" alt="verse-img" class="verse-card__img">
+                            </div>
+                            <div class="social-block verse-card__social-block">
+                                <h4 class="social-block__title">Поделится в социальных сетях</h4>
+                                <div class="social-block__inner">
+                                    <a href="#" class="social-block__link">
+                                        <img src="img/icons/social_vk.svg" alt="vk_icon" class="social-block__icon">
+                                    </a>
+                                    <a href="#" class="social-block__link">
+                                        <img src="img/icons/social_facebook.svg" alt="fb_icon"
+                                            class="social-block__icon">
+                                    </a>
+                                    <a href="#" class="social-block__link">
+                                        <img src="img/icons/social_ok.svg" alt="ok_icon" class="social-block__icon">
+                                    </a>
+                                    <a href="#" class="social-block__link">
+                                        <img src="img/icons/social_twitter.svg" alt="twitter_icon"
+                                            class="social-block__icon">
+                                    </a>
+                                    <a href="#" class="social-block__link">
+                                        <img src="img/icons/social_telegram.svg" alt="telegram_icon"
+                                            class="social-block__icon">
+                                    </a>
+                                    <a href="#" class="social-block__link">
+                                        <img src="img/icons/social_whatsApp.svg" alt="whatsApp_icon"
+                                            class="social-block__icon">
+                                    </a>
+                                    <a href="#" class="social-block__link">
+                                        <img src="img/icons/social_viber.svg" alt="viber_icon"
+                                            class="social-block__icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="verse-card__descr">
+                            <p class="verse-card__text">
+                                На коврике уснул олень,<br>
+                                А в кресле - старый слон.<br>
+                                Они играли целый день,<br>
+                                Сморил их сладкий сон.<br>
+                                Ты развлекал друзей как мог<br>
+                                И вместе с ними спишь,<br>
+                                У ног твоих уснул щенок,<br>
+                                Загнавший в подпол мышь.<br>
+                                Уснули пчёлки и цветы<br>
+                                И старенький сверчок,<br>
+                                Он простудился у воды<br>
+                                И к ночи занемог.<br>
+                                Но жёлтой за окном луне<br>
+                                Не спится в небесах,<br>
+                                И светлячкам в густой траве<br>
+                                В березовых лесах.<br>
+                                Приглажу жёсткий хохолок,<br>
+                                Щекой к руке прильну.<br>
+                                Знать не дано тебе, сынок,<br>
+                                Что ты у сна в плену.<br>
+                                Рот расцветает, чуть дыша,<br>
+                                Улыбкой в уголках.<br>
+                                Что ищет детская душа<br>
+                                В неведомых мирах?<br>
+                                Надеюсь, верные друзья<br>
+                                Сейчас с тобой в пути.<br>
+                                Какие горы и моря<br>
+                                Вам предстоит пройти?<br>
+                                Я подоткну легонько плед,<br>
+                                Прощаясь прошепчу:<br>
+                                "Затерянный твой в сказках след<br>
+                                На зорьке разыщу."
+                            </p>
+                            <span class="date">27.07.2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="comments">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="comments__title">Обсудить стихотворение</h2>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="comments__block">
+                            <div class="comment comments__user">
+                                <div class="comment__author-wrp">
+                                    <div class="comment__author">Вадим</div>
+                                    <div class="comment__inner">
+                                        <span class="date comment__date date_bold">14.03.2020</span>
+                                        <button class="btn btn_small">Ответить</button>
+                                    </div>
+                                </div>
+
+                                <p class="comment__text">"Гори, костёр и прогорай! Пусть дым твой унесёт обиды, пусть
+                                    зависть корчится в огне... И пусть огня такого виды врачуют боли в сердце мне..."
+                                </p>
+                            </div>
+                            <div class="comment comments__answer">
+                                <div class="comment__author-wrp">
+                                    <div class="comment__author">Ира Степанян </div>
+                                    <div class="comment__inner">
+                                        <span class="date comment__date date_bold">14.03.2020</span>
+                                        <button class="btn btn_small">Ответить</button>
+                                    </div>
+                                </div>
+                                <p class="comment__text">Спасибо за Ваш отклик. Приятно было получить.</p>
+                            </div>
+
+                        </div>
+                        <div class="comments__form-wrp">
+                            <form action="#" class="form form_vertical">
+                                <input name="userName" type="text" class="inp form__input" placeholder="Имя">
+                                <textarea name="comment" class="form__area"
+                                    placeholder="Добавте комментарий"></textarea>
+                                <button type="submit" class="btn btn_narrow">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <%= _.template(require('html-loader!./../includes/footer.html'))(data) %>
+
+</body>
+
+</html>

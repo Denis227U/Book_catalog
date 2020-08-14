@@ -17,12 +17,16 @@
 
 
 
-// -----===== new test header=====-----
+// -----===== Header=====-----
 @import "header.scss";
 
 
 // -----===== Main Page =====-----
 @import "pages/main.scss";
+
+
+// -----===== Verse Page =====-----
+@import "pages/versePage.scss";
 
 
 // -----===== Footer =====-----
