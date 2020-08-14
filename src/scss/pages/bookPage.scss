@@ -1,0 +1,175 @@
+.book-card {
+    padding-top: 106px;
+    padding-bottom: 150px;
+
+    @include respond-to('lg') {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    &__title {
+        margin-bottom: 38px;
+
+        @include respond-to('xs') {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__descr {
+        display: flex;
+
+        @include respond-to('md') {
+            margin-bottom: 30px;
+        }
+
+        @include respond-to('xs') {
+            flex-direction: column;
+        }
+    }
+
+    &__img-wrp {
+        // width: 100%;
+        max-width: 270px;
+        margin-right: 30px;
+
+        @include respond-to('xs') {
+            width: 100%;
+            margin: 0 auto 10px;
+        }
+    }
+
+    &__img {
+        display: block;
+        // max-width: 100%;
+        width: 270px;
+
+        @include respond-to('xs') {
+            margin: 0 auto;
+        }
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    &__details {
+        list-style-type: none;
+        padding: 0;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.88;
+        color: $base-text-light-color;
+    }
+
+    &__info-val {
+        font-size: 16px;
+        color: $base-text-color;
+    }
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__price {
+        font-size: 21px;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 27px;
+
+        @include respond-to('xs') {
+            margin-bottom: 18px;
+        }
+    }
+
+    &__annotation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__subtitle {
+        font-size: 12px;
+        font-weight: 400;
+        color: $base-text-light-color;
+        margin-bottom: 8px;
+    }
+
+    &__text {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: normal;
+
+        @include respond-to('xs') {
+            font-size: 16px;
+        }
+    }
+}
+
+.user-contacts {
+    margin-bottom: 150px;
+
+    @include respond-to('lg') {
+        margin-bottom: 100px;
+    }
+
+    &__title {
+        font-size: 21px;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 35px;
+
+        @include respond-to('xs') {
+            font-size: 20px;
+        }
+    }
+}
+
+.form_horizontal {
+    justify-content: space-between;
+
+    @include respond-to('lg') {
+        flex-direction: column;
+    }
+}
+
+.form {
+    &__inner {
+        display: flex;
+
+        @include respond-to('lg') {
+            margin-bottom: 30px;
+        }
+
+        @include respond-to('lg') {
+            flex-wrap: wrap;
+        }
+
+        @include respond-to('xs') {
+            margin-bottom: 0px;
+        }
+    }
+
+    &__input-hor {
+        margin-right: 30px;
+
+        @include respond-to('md') {
+            margin-bottom: 20px;
+        }
+
+        @include respond-to('xs') {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+
+    &__input-hor:last-child {
+        margin-right: 0;
+    }
+
+
+}
