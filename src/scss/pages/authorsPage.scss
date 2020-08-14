@@ -1,0 +1,81 @@
+.authors {
+    padding-top: 130px;
+    padding-bottom: 160px;
+
+    @include respond-to('md') {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    &__row {
+        margin-bottom: 170px;
+
+        @include respond-to('md') {
+            margin-bottom: 100px;
+        }
+
+        @include respond-to('xs') {
+            margin-bottom: 70px;
+        }
+    }
+
+    &__img {
+        display: block;
+        max-width: 100%;
+
+        @include respond-to('md') {
+            margin: 0 auto 40px;
+        }
+
+        @include respond-to('xs') {
+            margin-bottom: 25px;
+        }
+    }
+
+    &__title {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 1.13;
+        margin-bottom: 40px;
+
+        @include respond-to('xs') {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__title_right {
+        margin-left: auto;
+        margin-right: 0;
+        width: 250px;
+
+        @include respond-to('md') {
+            margin-left: 0;
+        }
+    }
+
+    &__title_left {
+        margin-left: -80px;
+
+        @include respond-to('md') {
+            margin-left: 0;
+        }
+    }
+
+    &__subtitle {
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 7px;
+        max-width: 250px;
+    }
+
+    &__text {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.67;
+    }
+}
+
+.row_reverse {
+    flex-direction: column-reverse;
+}
