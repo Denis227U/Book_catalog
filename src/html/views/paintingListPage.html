@@ -1,0 +1,200 @@
+<% var data = {
+    title: "BookCatalog",
+    author: "Denis&Danil"
+}; %>
+
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <%= _.template(require('html-loader!./../includes/head.html'))(data) %>
+</head>
+
+<body>
+
+  <%= _.template(require('html-loader!./../includes/header.html'))(data) %>
+
+  <main>
+    <section class="painting-listing">
+      <div class="container">
+
+        <div class="painting-listing__promo-wrp">
+
+          <div class="painting-promo">
+            <div class="row row_row-reverse-nth2">
+              <div class="col-12 col-lg-6">
+                <img src="img/pictures/verse_img.jpg" alt="painting-img" class="painting-promo__img">
+              </div>
+              <div class="col-12 col-lg-6">
+                <h2 class="title painting-promo__title">Название картины</h2>
+                <ul class="painting-promo__info">
+                  <li class="painting-promo__item">
+                    Год
+                    <span class="painting-promo__info-val">2020</span>
+                  </li>
+                  <li class="painting-promo__item">
+                    Материалы
+                    <span class="painting-promo__info-val">Масло, Акрил, Холст на подрамнике.</span>
+                  </li>
+                  <li class="painting-promo__item">
+                    Размер, см
+                    <span class="painting-promo__info-val">50х50</span>
+                  </li>
+                </ul>
+                <div class="painting-promo__inner">
+                  <span class="painting-promo__price">11 650 руб.</span>
+                  <button class="btn btn_narrow">Заказать</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.painting-promo -->
+
+          <div class="painting-promo">
+            <div class="row row_row-reverse-nth2">
+              <div class="col-12 col-lg-6">
+                <img src="img/pictures/painting_img.jpg" alt="painting-img" class="painting-promo__img">
+              </div>
+              <div class="col-12 col-lg-6">
+                <h2 class="title painting-promo__title">Название картины</h2>
+                <ul class="painting-promo__info">
+                  <li class="painting-promo__item">
+                    Год
+                    <span class="painting-promo__info-val">2020</span>
+                  </li>
+                  <li class="painting-promo__item">
+                    Материалы
+                    <span class="painting-promo__info-val">Масло, Акрил, Холст на подрамнике.</span>
+                  </li>
+                  <li class="painting-promo__item">
+                    Размер, см
+                    <span class="painting-promo__info-val">50х50</span>
+                  </li>
+                </ul>
+                <div class="painting-promo__inner">
+                  <span class="painting-promo__price">11 650 руб.</span>
+                  <button class="btn btn_narrow">Заказать</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.painting-promo -->
+
+          <div class="painting-promo">
+            <div class="row row_row-reverse-nth2">
+              <div class="col-12 col-lg-6">
+                <img src="img/pictures/painting_img.jpg" alt="painting-img" class="painting-promo__img">
+              </div>
+              <div class="col-12 col-lg-6">
+                <h2 class="title painting-promo__title">Название картины</h2>
+                <ul class="painting-promo__info">
+                  <li class="painting-promo__item">
+                    Год
+                    <span class="painting-promo__info-val">2020</span>
+                  </li>
+                  <li class="painting-promo__item">
+                    Материалы
+                    <span class="painting-promo__info-val">Масло, Акрил, Холст на подрамнике.</span>
+                  </li>
+                  <li class="painting-promo__item">
+                    Размер, см
+                    <span class="painting-promo__info-val">50х50</span>
+                  </li>
+                </ul>
+                <div class="painting-promo__inner">
+                  <span class="painting-promo__price">11 650 руб.</span>
+                  <button class="btn btn_narrow">Заказать</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.painting-promo -->
+
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <ul class="pagination" role="menubar" aria-label="Pagination">
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">
+                  <img src="img/icons/arrow-prev.svg" alt="prev">
+                </a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link"><span>F</span></a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">1</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">2</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">3</a>
+              </li>
+              <li class="pagination__item current">
+                <a href="#" class="pagination__link">4</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">5</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">6</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">7</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">8</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link"><span>L</span></a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">
+                  <img class="pagination__next" src="img/icons/arrow-prev.svg" alt="next">
+                </a>
+              </li>
+            </ul>
+            <!-- /.pagination -->
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <section class="user-contacts">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="user-contacts__title">Для заказа книги оставте ваши контакты и мы с вами свяжемся
+            </h3>
+          </div>
+          <div class="col-12">
+            <form action="#" class="form form_horizontal">
+              <div class="form__inner">
+                <input name="userName" type="text" class="inp form__input-hor" placeholder="Имя">
+                <input name="userPhone" type="text" class="inp form__input-hor" placeholder="Телефон">
+                <input name="userEmail" type="text" class="inp form__input-hor" placeholder="E-mail">
+              </div>
+              <button type="submit" class="btn btn_narrow">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+
+
+
+  <%= _.template(require('html-loader!./../includes/footer.html'))(data) %>
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+.painting-listing {
+    padding-top: 105px;
+    padding-bottom: 70px;
+
+    @include respond-to('md') {
+        padding-top: 70px;
+    }
+
+    @include respond-to('xs') {
+        padding-top: 50px;
+    }
+}
+
+.painting-promo {
+    margin-bottom: 150px;
+
+    @include respond-to('md') {
+        margin-bottom: 100px;
+    }
+
+    @include respond-to('xs') {
+        margin-bottom: 70px;
+    }
+
+    &__img {
+        display: block;
+        max-width: 100%;
+
+        @include respond-to('md') {
+            margin: 0 auto 30px;
+            max-width: 80%;
+        }
+
+        @include respond-to('xs') {
+            max-width: 100%;
+        }
+    }
+
+    &__title {
+        margin-bottom: 27px;
+    }
+
+    &__info {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.88;
+        color: $base-text-light-color;
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 25px;
+
+        @include respond-to('md') {
+            margin-bottom: 20px;
+        }
+
+        @include respond-to('xs') {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__info-val {
+        font-size: 16px;
+        color: $base-text-color;
+    }
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__price {
+        margin-bottom: 60px;
+        font-size: 21px;
+        font-weight: 500;
+
+        @include respond-to('md') {
+            margin-bottom: 35px;
+        }
+
+        @include respond-to('xs') {
+            margin-bottom: 25px;
+        }
+    }
+
+    &:last-child {
+        margin-bottom: 100px;
+
+        @include respond-to('md') {
+            margin-bottom: 60px;
+        }
+    }
+}
