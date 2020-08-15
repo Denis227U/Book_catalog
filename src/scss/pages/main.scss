@@ -161,8 +161,8 @@
     &__link {
         margin-right: 4px;
         text-decoration: none;
-        width: 22px;
-        height: 22px;
+        min-width: 24px;
+        height: 24px;
         border-radius: 2px;
         border: solid 1px $base-text-color;
         background-color: #f8f8f8;

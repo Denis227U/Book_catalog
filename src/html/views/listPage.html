@@ -1,0 +1,192 @@
+<% var data = {
+    title: "BookCatalog",
+    author: "Denis&Danil"
+}; %>
+
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <%= _.template(require('html-loader!./../includes/head.html'))(data) %>
+</head>
+
+<body>
+
+  <%= _.template(require('html-loader!./../includes/header.html'))(data) %>
+
+  <main>
+
+    <section class="product-list">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-12">
+            <h1 class="title product-list__title">Произведения</h1>
+          </div>
+          <div class="col-12">
+            <ul class="product-list__content">
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Полночный разговор или разговор с собою<span
+                    class="product-list__item-small">/02.01.2020/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Летний дождь<span
+                    class="product-list__item-small">/30.09.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">На коврике уснул олень<span
+                    class="product-list__item-small">/28.09.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Я в пространстве точкой стала...<span
+                    class="product-list__item-small">/11.09.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Колодец, дай воды напиться<span
+                    class="product-list__item-small">/22.04.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Полночный разговор или разговор с собою<span
+                    class="product-list__item-small">/02.01.2020/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Летний дождь<span
+                    class="product-list__item-small">/30.09.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">На коврике уснул олень<span
+                    class="product-list__item-small">/28.09.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Я в пространстве точкой стала...<span
+                    class="product-list__item-small">/11.09.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Колодец, дай воды напиться<span
+                    class="product-list__item-small">/22.04.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Полночный разговор или разговор с собою<span
+                    class="product-list__item-small">/02.01.2020/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Летний дождь<span
+                    class="product-list__item-small">/30.09.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">На коврике уснул олень<span
+                    class="product-list__item-small">/28.09.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Я в пространстве точкой стала...<span
+                    class="product-list__item-small">/11.09.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Колодец, дай воды напиться<span
+                    class="product-list__item-small">/22.04.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Полночный разговор или разговор с собою<span
+                    class="product-list__item-small">/02.01.2020/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Летний дождь<span
+                    class="product-list__item-small">/30.09.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">На коврике уснул олень<span
+                    class="product-list__item-small">/28.09.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Я в пространстве точкой стала...<span
+                    class="product-list__item-small">/11.09.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Колодец, дай воды напиться<span
+                    class="product-list__item-small">/22.04.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Полночный разговор или разговор с собою<span
+                    class="product-list__item-small">/02.01.2020/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Летний дождь<span
+                    class="product-list__item-small">/30.09.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">На коврике уснул олень<span
+                    class="product-list__item-small">/28.09.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Я в пространстве точкой стала...<span
+                    class="product-list__item-small">/11.09.2019/</span></a>
+              </li>
+              <li class="product-list__item">
+                <a href="#" class="product-list__link">Колодец, дай воды напиться<span
+                    class="product-list__item-small">/22.04.2019/</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <ul class="pagination" role="menubar" aria-label="Pagination">
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">
+                  <img src="img/icons/arrow-prev.svg" alt="prev">
+                </a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link"><span>F</span></a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">1</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">2</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">3</a>
+              </li>
+              <li class="pagination__item current">
+                <a href="#" class="pagination__link">4</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">5</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">6</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">7</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">8</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link"><span>L</span></a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">
+                  <img class="pagination__next" src="img/icons/arrow-prev.svg" alt="next">
+                </a>
+              </li>
+            </ul>
+            <!-- /.pagination -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+
+
+  <%= _.template(require('html-loader!./../includes/footer.html'))(data) %>
+
+</body>
+
+</html>
